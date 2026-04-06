@@ -49,7 +49,7 @@ You only need internet for this step the first time.
 ### 4. Start Noa
 
 ```bash
-chmod +x noa offline_chat.py
+chmod +x noa noa.py
 ./noa
 ```
 
@@ -88,7 +88,7 @@ Do not auto-start the Ollama server:
 Run the Python file directly:
 
 ```bash
-python3 offline_chat.py
+python3 noa.py
 ```
 
 ## Optional Global Command
@@ -96,7 +96,7 @@ python3 offline_chat.py
 If you want to run Noa as `noa` from anywhere:
 
 ```bash
-chmod +x noa offline_chat.py
+chmod +x noa noa.py
 sudo ln -sf "$(pwd)/noa" /usr/local/bin/noa
 ```
 
@@ -137,7 +137,7 @@ ollama pull llama3.2:3b
 
 ## Project Files
 
-- `offline_chat.py` - main terminal chatbot
+- `noa.py` - main terminal chatbot
 - `noa` - launcher script
 
 ## Example
