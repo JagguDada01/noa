@@ -24,7 +24,7 @@ It runs on your own machine, works without a browser, and can keep working with 
 ### 1. Clone the project
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/noa.git
+git clone https://github.com/JagguDada01/noa.git
 cd noa
 ```
 
