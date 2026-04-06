@@ -148,4 +148,4 @@ ollama pull llama3.2:3b
 
 ## License
 
-Add a license file if you want to publish this as open source.
+MIT License. See `LICENSE`.
